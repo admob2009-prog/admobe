@@ -1,12 +1,14 @@
 {
   "ad_status": "1",
   "ad_type": "appodeal",
+  "admob_on": "0",
+  "appodeal_on": "1",
   "ad_placements": {
     "banner": "appodeal",
     "interstitial": "appodeal",
     "rewarded": "appodeal",
-    "app_open": "off",
-    "native": "off"
+    "native": "appodeal",
+    "app_open": "off"
   },
   "admob_banner_unit_id": "ca-app-pub-3940256099942544/9214589741",
   "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
@@ -17,10 +19,9 @@
   "appodeal_banner": "1",
   "appodeal_interstitial": "1",
   "appodeal_rewarded": "1",
-  "appodeal_native": "0",
-  "onesignal_app_id": "",
-  "backup_ad_network": "none",
-  "ad_interval": 3,
+  "appodeal_native": "1",
+  "ad_interval": 1,
   "interstitial_cooldown_seconds": 120,
-  "app_open_max_per_session": 1
+  "app_open_max_per_session": 0,
+  "onesignal_app_id": ""
 }
