@@ -1,27 +1,10 @@
 {
   "ad_status": "1",
-  "ad_type": "appodeal",
-  "admob_on": "0",
-  "appodeal_on": "1",
-  "ad_placements": {
-    "banner": "appodeal",
-    "interstitial": "appodeal",
-    "rewarded": "appodeal",
-    "native": "appodeal",
-    "app_open": "off"
-  },
-  "admob_banner_unit_id": "ca-app-pub-3940256099942544/9214589741",
-  "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
-  "admob_rewarded_ad_id": "ca-app-pub-3940256099942544/5224354917",
-  "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
-  "admob_app_open_ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
-  "appodeal_app_key": "e3475ce50e4c3754b537a63a40186291580f7b0bd165f6df",
-  "appodeal_banner": "1",
-  "appodeal_interstitial": "1",
-  "appodeal_rewarded": "1",
-  "appodeal_native": "1",
-  "ad_interval": 1,
-  "interstitial_cooldown_seconds": 120,
-  "app_open_max_per_session": 0,
+  "ad_type": "admob",
+  "admob_banner_unit_id": "",
+  "admob_interstitial_unit_id": "",
+  "admob_rewarded_ad_id": "",
+  "admob_native_unit_id": "ca-app-pub-2812041478669754/8055180377",
+  "admob_app_open_ad_unit_id": "",
   "onesignal_app_id": ""
 }
