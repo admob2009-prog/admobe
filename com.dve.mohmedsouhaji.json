@@ -2,10 +2,10 @@
   "ad_status": "1",
   "ad_type": "admob",
   "admob_banner_unit_id": "",
-  "admob_interstitial_unit_id": "",
-  "admob_rewarded_ad_id": "",
+  "admob_interstitial_unit_id": "ca-app-pub-2812041478669754/7002873990",
+  "admob_rewarded_ad_id": "ca-app-pub-2812041478669754/5689792326",
   "admob_native_unit_id": "",
-  "admob_app_open_ad_unit_id": "",
+  "admob_app_open_ad_unit_id": "ca-app-pub-2812041478669754/4376710650",
   "onesignal_app_id": "",
 
   "AppUpdate": {
