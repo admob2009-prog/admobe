@@ -1,53 +1,36 @@
+
 {
-  "Ads": {
-    "ad_status" : "1",
-    
-    "_comment" : "admob , google_ad_manager , fan, applovin_max, ironsource, startapp, applovin_discovery",
-    "ad_banner" : "fan",
-    "ad_inter" : "fan",
-    "ad_native" : "fan",
-    "openapp" : "admob",
-    "back_up" : "none",
-    "ad_interval" : 3 ,
-    
-    "AdMob": {
-      "banner": "ca-app-pub-3940256099942544/6300978111",
-      "interstitial": "ca-app-pub-3940256099942544/1033173712",
-      "native": "ca-app-pub-3940256099942544/1044960115",
-      "appopen" : "ca-app-pub-3940256099942544/3419835294"
-    },
-    
-    "ironSource": {
-      "app_key": "12d657f25"
-    },
-    
-	"MAX": {
-	  "banner":"2965c66e51e81699",
-	  "interstitial":"61a23d63d2461798",
-	  "native": "c6258babf97ca328",
-	  "appopen" : "d1ac3378c8713d81"
-	},
-	
-	"FAN": {
-      "banner": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "native": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
-    },
-    
-    "GAM": {
-      "banner": "/6499/example/banner",
-      "interstitial": "/6499/example/interstitial",
-      "native": "/6499/example/native",
-      "appopen": "/6499/example/app-open"
-    },
-    
-    "Applovin": {
-      "banner": "be13788b9f2afee5",
-      "interstitial": "1f5e603ebdfc8580"
-    },
-    
-    "StartApp" :{
-        "app_id" : "0"
-    }
+  "ad_status": "1",
+  "ad_type": "admob",
+
+  "admob_banner_unit_id": "ca-app-pub-3940256099942544/9214589741",
+  "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+  "admob_rewarded_ad_id": "ca-app-pub-3940256099942544/5224354917",
+  "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+  "admob_app_open_ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
+  "onesignal_app_id": "",
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+  "banner_enabled": true,
+  "native_enabled": true,
+  "rewarded_enabled": true,
+
+  "ad_policy": {
+    "fullscreen_cooldown_seconds": 300,
+    "minimum_content_usage_seconds": 180,
+    "app_open_min_session": 3,
+    "minimum_request_gap_seconds": 60,
+    "app_open_max_requests": 2,
+    "interstitial_max_requests": 3,
+    "banner_max_requests": 3,
+    "native_max_requests": 3,
+    "rewarded_max_requests": 4
+  },
+
+  "AppUpdate": {
+    "force_update": false,
+    "update_message": "هذا التطبيق لم يعد مدعوماً، يرجى تثبيت النسخة الجديدة للاستمرار.",
+    "update_url": "https://play.google.com/store/apps/details?id=com.tech.Jackson"
   }
 }
