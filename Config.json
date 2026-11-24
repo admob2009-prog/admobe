@@ -3,28 +3,27 @@
   "ad_status": "1",
   "ad_type": "admob",
 
-  "admob_banner_unit_id": "ca-app-pub-3940256099942544/9214589741",
+  "admob_banner_unit_id": "",
+  "admob_native_unit_id": "",
   "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
   "admob_rewarded_ad_id": "ca-app-pub-3940256099942544/5224354917",
-  "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
   "admob_app_open_ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
+
   "onesignal_app_id": "",
 
-  "app_open_enabled": true,
+  "banner_enabled": false,
+  "native_enabled": false,
   "interstitial_enabled": true,
-  "banner_enabled": true,
-  "native_enabled": true,
   "rewarded_enabled": true,
+  "app_open_enabled": true,
 
   "ad_policy": {
     "fullscreen_cooldown_seconds": 300,
     "minimum_content_usage_seconds": 180,
     "app_open_min_session": 3,
     "minimum_request_gap_seconds": 60,
-    "app_open_max_requests": 2,
+    "app_open_max_requests": 1,
     "interstitial_max_requests": 3,
-    "banner_max_requests": 3,
-    "native_max_requests": 3,
     "rewarded_max_requests": 4
   },
 
